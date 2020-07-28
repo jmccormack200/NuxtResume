@@ -2,7 +2,7 @@
   <div>
     <h1 class="mb-0">
       JD
-      <span class="text-primary">McCormack</span>
+      <span class="header-accent">McCormack</span>
     </h1>
     <div class="subheading text-secondary mb-5">
       Boston, MA · (617) 257-5586 ·
@@ -31,14 +31,26 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "src/assets/scss/colors.scss";
+
 h1 {
   font-size: 6rem;
   text-transform: uppercase;
+  color: $color-primary;
+}
+
+.header-accent {
+  color: $color-accent;
+}
+
+a {
+  color: $color-accent;
 }
 
 .subheading {
   text-transform: uppercase;
+  color: $color-secondary;
 }
 
 .social-icons {
@@ -53,7 +65,7 @@ h1 {
   height: 3.5rem;
   width: 3.5rem;
   justify-content: center;
-  background-color: #495057;
+  background-color: $color-primary;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -61,6 +73,6 @@ h1 {
 }
 
 .social-icon:hover {
-  background-color: #ff4500
+  background-color: $color-accent
 }
 </style>
