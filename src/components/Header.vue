@@ -2,15 +2,20 @@
   <div>
     <h1 class="mb-0">
       JD
-      <span class="text-primary">McCormack</span>
+      <span class="header-accent">McCormack</span>
     </h1>
     <div class="subheading text-secondary mb-5">
       Boston, MA · (617) 257-5586 ·
       <a href="mailto:me@jdmccormack.com">me@jdmccormack.com</a>
     </div>
-    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level
-      overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value
-      proposition.</p>
+    <p class="lead mb-5">I am a passionate and curious software engineer. I am comfortable working across a number of
+      tech stacks and am always interested in learning new ones. Despite being a "switch hitter", I strive to learn best practices
+      for each platform. I see new languages as "tools in a toolbox" and work to understand the benefits and pitfalls
+      of each.</p>
+
+    <p class="lead mb-5">I float comfortably between being a "hands on keyboard" developer, and a team lead. I enjoy
+    putting processes in place when needed, but also pulling them out when they're hindering progress. I like to focus on
+    the individuals in a team to find better ways to unblock them and allow them to achieve a their highest level. </p>
     <div class="social-icons">
       <a class="social-icon" href="#">
         <font-awesome-icon :icon="['fab', 'linkedin-in']"/>
@@ -31,14 +36,26 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "src/assets/scss/colors.scss";
+
 h1 {
   font-size: 6rem;
   text-transform: uppercase;
+  color: $color-primary;
+}
+
+.header-accent {
+  color: $color-accent;
+}
+
+a {
+  color: $color-accent;
 }
 
 .subheading {
   text-transform: uppercase;
+  color: $color-secondary;
 }
 
 .social-icons {
@@ -53,7 +70,7 @@ h1 {
   height: 3.5rem;
   width: 3.5rem;
   justify-content: center;
-  background-color: #495057;
+  background-color: $color-primary;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -61,6 +78,6 @@ h1 {
 }
 
 .social-icon:hover {
-  background-color: #ff4500
+  background-color: $color-accent
 }
 </style>
