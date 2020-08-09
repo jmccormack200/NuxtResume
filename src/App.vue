@@ -7,6 +7,8 @@
     <Education />
     <hr class="line-break" />
     <Skills />
+    <hr class="line-break" />
+    <Interests />
   </div>
 </template>
 
@@ -15,10 +17,12 @@ import Header from './components/Header'
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Skills from "@/components/Skills";
+import Interests from "@/components/Interests";
 
 export default {
   name: 'App',
   components: {
+    Interests,
     Skills,
     Education,
     Experience,
@@ -35,6 +39,7 @@ export default {
   text-align: left;
   color: #2c3e50;
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .line-break {

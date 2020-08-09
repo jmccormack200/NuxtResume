@@ -30,7 +30,7 @@
         <div class="flex-grow-1">
           <h3 class="mb-0">Audio Engineer</h3>
           <div class="subheading mb-3">Tivoli Audio</div>
-          <p>I generated both analog and digital designs in addition to prototyping many new products. I spent 15% of my time in China addressing concerns with contract manufacturers. </p>
+          <p>I generated both analog and digital designs. I was responsible for prototyping many new products. I spent 15% of my time in China addressing concerns with contract manufacturers. </p>
         </div>
         <div class="flex-shrink-0"><span class="text-primary">May 2012 - August 2014</span></div>
       </div>
