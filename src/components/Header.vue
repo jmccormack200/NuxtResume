@@ -5,7 +5,7 @@
       <span class="header-accent">McCormack</span>
     </h1>
     <div class="subheading text-secondary mb-5">
-      Boston, MA &mdash; (617) 257-5586 &mdash;
+      Boston, MA - (617) 257-5586 -
       <a href="mailto:me@jdmccormack.com">me@jdmccormack.com</a>
     </div>
     <p class="lead mb-5">I am a passionate and curious software engineer. I am comfortable working across a number of
@@ -15,7 +15,7 @@
 
     <p class="lead mb-5">I float comfortably between being a "hands on keyboard" developer, and a team lead. I enjoy
     putting processes in place when needed, but also pulling them out when they're hindering progress. I like to focus on
-    the individuals in a team to find better ways to unblock them and allow them to achieve a their highest level. </p>
+    the individuals in a team to find better ways to unblock them and allow them to achieve at their highest level. </p>
     <div class="social-icons">
       <a class="social-icon" href="https://www.linkedin.com/in/jdmccormack/">
         <font-awesome-icon :icon="['fab', 'linkedin-in']"/>
@@ -38,25 +38,6 @@ export default {
 
 <style lang="scss" scoped>
 @import "src/assets/scss/colors.scss";
-
-h1 {
-  font-size: 6rem;
-  text-transform: uppercase;
-  color: $color-primary;
-}
-
-.header-accent {
-  color: $color-accent;
-}
-
-a {
-  color: $color-accent;
-}
-
-.subheading {
-  text-transform: uppercase;
-  color: $color-secondary;
-}
 
 .social-icons {
   display: flex;
